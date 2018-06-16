@@ -46,3 +46,35 @@ r.getDenominator()=7
 ex03 pconrad$ 
 
 ```
+
+To compile:
+
+```
+ex03 pconrad$ ant compile
+Buildfile: /Users/pconrad/github/UCSB-CS56-M16/cs56-rational-example/ex03/build.xml
+
+compile:
+    [javac] Compiling 3 source files to /Users/pconrad/github/UCSB-CS56-M16/cs56-rational-example/ex03
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+ex03 pconrad$ 
+```
+
+To run the JUnit tests in the repo:
+
+```
+ex03 pconrad$ ant test
+Buildfile: /Users/pconrad/github/UCSB-CS56-M16/cs56-rational-example/ex03/build.xml
+
+compile:
+
+test:
+    [junit] Testsuite: RationalTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+    [junit]
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+ex03 pconrad$ 
+```
