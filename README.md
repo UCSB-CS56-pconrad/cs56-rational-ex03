@@ -16,5 +16,29 @@ Once you clone this repo, these commands show how to compile and run the code in
 
 The `build.xml` file in this repo is set up to produce a jar file:
 
+To run this new target, we use:
+
 ```
+ex03 pconrad$ ant jar
+Buildfile: /Users/pconrad/github/UCSB-CS56-M16/cs56-rational-example/ex03/build.xml
+
+compile:
+    [javac] Compiling 2 source files to /Users/pconrad/github/UCSB-CS56-M16/cs56-rational-example/ex03
+
+jar:
+      [jar] Building jar: /Users/pconrad/github/UCSB-CS56-M16/cs56-rational-example/ex03/build/rational.jar
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+ex03 pconrad$ 
+```
+
+We can then run the file with this command:
+
+```
+ex03 pconrad$ java -jar build/rational.jar 
+r.getNumerator()=5
+r.getDenominator()=7
+ex03 pconrad$ 
+
 ```
